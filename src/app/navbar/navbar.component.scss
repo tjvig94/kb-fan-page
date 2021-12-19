@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+li:hover {
+    cursor: pointer;
+    color: rgba(255,255,255,.3);
+}
